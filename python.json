@@ -1,0 +1,223 @@
+{
+    "Id": "0de743316557a5f632dd8afc9ef7188e13613c96fafc29f1a003bb20bff5fa67",
+    "Created": "2026-07-02T20:43:04.066856188Z",
+    "Path": "python3",
+    "Args": [],
+    "State": {
+        "Status": "running",
+        "Running": true,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 457,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-07-18T17:40:26.352974721Z",
+        "FinishedAt": "2026-07-17T11:35:09.69221235Z"
+    },
+    "Image": "sha256:09b29c360b84742bf98eba40b214f7f6b4b53286bb2c8a8b5b1afa188a8d9c0e",
+    "ResolvConfPath": "/var/lib/docker/containers/0de743316557a5f632dd8afc9ef7188e13613c96fafc29f1a003bb20bff5fa67/resolv.conf",
+    "HostnamePath": "/var/lib/docker/containers/0de743316557a5f632dd8afc9ef7188e13613c96fafc29f1a003bb20bff5fa67/hostname",
+    "HostsPath": "/var/lib/docker/containers/0de743316557a5f632dd8afc9ef7188e13613c96fafc29f1a003bb20bff5fa67/hosts",
+    "LogPath": "/var/lib/docker/containers/0de743316557a5f632dd8afc9ef7188e13613c96fafc29f1a003bb20bff5fa67/0de743316557a5f632dd8afc9ef7188e13613c96fafc29f1a003bb20bff5fa67-json.log",
+    "Name": "/admiring_lamarr",
+    "RestartCount": 0,
+    "Driver": "overlayfs",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "",
+    "ExecIDs": null,
+    "HostConfig": {
+        "Binds": null,
+        "ContainerIDFile": "",
+        "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+        },
+        "NetworkMode": "bridge",
+        "PortBindings": {},
+        "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+        },
+        "AutoRemove": false,
+        "VolumeDriver": "",
+        "VolumesFrom": null,
+        "ConsoleSize": [
+            38,
+            76
+        ],
+        "CapAdd": null,
+        "CapDrop": null,
+        "CgroupnsMode": "private",
+        "Dns": [],
+        "DnsOptions": [],
+        "DnsSearch": [],
+        "ExtraHosts": null,
+        "GroupAdd": null,
+        "IpcMode": "private",
+        "Cgroup": "",
+        "Links": null,
+        "OomScoreAdj": 0,
+        "PidMode": "",
+        "Privileged": false,
+        "PublishAllPorts": false,
+        "ReadonlyRootfs": false,
+        "SecurityOpt": null,
+        "UTSMode": "",
+        "UsernsMode": "",
+        "ShmSize": 67108864,
+        "Runtime": "runc",
+        "Isolation": "",
+        "CpuShares": 0,
+        "Memory": 0,
+        "NanoCpus": 0,
+        "CgroupParent": "",
+        "BlkioWeight": 0,
+        "BlkioWeightDevice": [],
+        "BlkioDeviceReadBps": [],
+        "BlkioDeviceWriteBps": [],
+        "BlkioDeviceReadIOps": [],
+        "BlkioDeviceWriteIOps": [],
+        "CpuPeriod": 0,
+        "CpuQuota": 0,
+        "CpuRealtimePeriod": 0,
+        "CpuRealtimeRuntime": 0,
+        "CpusetCpus": "",
+        "CpusetMems": "",
+        "Devices": [],
+        "DeviceCgroupRules": null,
+        "DeviceRequests": null,
+        "MemoryReservation": 0,
+        "MemorySwap": 0,
+        "MemorySwappiness": null,
+        "OomKillDisable": null,
+        "PidsLimit": null,
+        "Ulimits": [],
+        "CpuCount": 0,
+        "CpuPercent": 0,
+        "IOMaximumIOps": 0,
+        "IOMaximumBandwidth": 0,
+        "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware"
+        ],
+        "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+        ]
+    },
+    "Storage": {
+        "RootFS": {
+            "Snapshot": {
+                "Name": "overlayfs"
+            }
+        }
+    },
+    "Mounts": [],
+    "Config": {
+        "Hostname": "0de743316557",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": true,
+        "AttachStdout": true,
+        "AttachStderr": true,
+        "Tty": true,
+        "OpenStdin": true,
+        "StdinOnce": true,
+        "Env": [
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "PYTHON_VERSION=3.14.6",
+            "PYTHON_SHA256=143b1dddefaec3bd2e21e3b839b34a2b7fb9842272883c576420d605e9f30c63"
+        ],
+        "Cmd": [
+            "python3"
+        ],
+        "Image": "python",
+        "Volumes": null,
+        "WorkingDir": "",
+        "Entrypoint": null,
+        "Labels": {
+            "desktop.docker.io/wsl-distro": "Ubuntu-24.04"
+        },
+        "StopTimeout": 1
+    },
+    "NetworkSettings": {
+        "SandboxID": "cc76afd8ec9f9720787df2dd06a03cdb6598cbc17bc2004132cedbeaf4890719",
+        "SandboxKey": "/var/run/docker/netns/cc76afd8ec9f",
+        "Ports": {},
+        "Networks": {
+            "bridge": {
+                "IPAMConfig": null,
+                "Links": null,
+                "Aliases": null,
+                "DriverOpts": null,
+                "GwPriority": 0,
+                "NetworkID": "508b5ca2c0692fda7775370018f7bb02fd63cbdd767aad869731a80005b17d31",
+                "EndpointID": "ab3a1c99bf9409dc7d03965cebbbec22a40ce89be01772788a8da07a69eb8f16",
+                "Gateway": "172.17.0.1",
+                "IPAddress": "172.17.0.2",
+                "MacAddress": "da:3d:93:c7:9c:e8",
+                "IPPrefixLen": 16,
+                "IPv6Gateway": "",
+                "GlobalIPv6Address": "",
+                "GlobalIPv6PrefixLen": 0,
+                "DNSNames": null
+            },
+            "data-network": {
+                "IPAMConfig": {},
+                "Links": null,
+                "Aliases": [],
+                "DriverOpts": {},
+                "GwPriority": 0,
+                "NetworkID": "f8d627160f864596f6ccf6d5483929aee17ecb71c20216581dcb31ce9d1f17b2",
+                "EndpointID": "1daa5d11d78c8749e2221ed04b79aad15812e713956605b68c0b1ccf4c5147d3",
+                "Gateway": "172.18.0.1",
+                "IPAddress": "172.18.0.2",
+                "MacAddress": "02:db:d6:6f:bc:f3",
+                "IPPrefixLen": 16,
+                "IPv6Gateway": "",
+                "GlobalIPv6Address": "",
+                "GlobalIPv6PrefixLen": 0,
+                "DNSNames": [
+                    "admiring_lamarr",
+                    "0de743316557"
+                ]
+            }
+        }
+    },
+    "ImageManifestDescriptor": {
+        "mediaType": "application/vnd.oci.image.manifest.v1+json",
+        "digest": "sha256:0412691d701279c2e03009ef76e75bd28ea40f57a78cb3c9a0c2bb595e03a641",
+        "size": 2318,
+        "annotations": {
+            "com.docker.official-images.bashbrew.arch": "amd64",
+            "org.opencontainers.image.base.digest": "sha256:cbe2f66893063158a5554ba5583c5b508ed614a21688fe1afcd5946b5eaadf7e",
+            "org.opencontainers.image.base.name": "buildpack-deps:trixie",
+            "org.opencontainers.image.created": "2026-06-24T04:45:11Z",
+            "org.opencontainers.image.revision": "7914d06b7ddb34b99975318016ab5b9c18264015",
+            "org.opencontainers.image.source": "https://github.com/docker-library/python.git#7914d06b7ddb34b99975318016ab5b9c18264015:3.14/trixie",
+            "org.opencontainers.image.url": "https://hub.docker.com/_/python",
+            "org.opencontainers.image.version": "3.14.6-trixie"
+        },
+        "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+        }
+    }
+}
